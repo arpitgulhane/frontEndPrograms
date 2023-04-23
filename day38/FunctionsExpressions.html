@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<script>
+'use strict'
+
+function askDefault(yes,no,thequeue ='can you answer ?'){
+if (question(queue)) yes()
+else no()
+}
+
+function ask(thequeue,...  others){
+if(question(thequeue)) others[0]
+else others[1]()
+}
+
+function showOk(){
+    alert(" you aggred ")
+}
+
+function showCancle(){
+    alert(" you dis-aggre ")
+}
+
+let question = function(thequeue){
+return confirm(thequeue)
+}
+
+ask ("Do you aggreee ",showOk,showCancle)
+askDefault(showOk,showCancle)
+</script>

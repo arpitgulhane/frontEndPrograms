@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 5px;
+
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    /* margin-right: 100px; */
+    margin-left: 120px;
+    /* background-color: chartreuse; */
+}
+
+.demo{  
+    margin:  50px auto;
+    max-width: 500px;
+    padding:  30px;
+    background-color: coral;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgb(254, 3, 3);
+   
+}
+button {
+    padding: 50;
+    background-color: cyan;
+    font-size: 20px;
+    border-radius: 10;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 150px;
+
+
+    
+}
+
+
+
+
+button:hover{
+    background-color: coral;
+}
+/*
+#a_demo{      for id
+
+} */
