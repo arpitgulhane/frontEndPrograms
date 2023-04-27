@@ -8,7 +8,7 @@ a{
     border-color: blue;
 }
 
-.box {
+/* .box {
         margin:  50px auto;
         max-width: 500px;
         padding:  300px;
@@ -26,4 +26,11 @@ a{
     font-size: 50px;
     border: 20px solid red;
     padding: 6rem; */
+  /* } */ */
+
+  .box {
+	        margin: 50px; /* adds 20px of margin on all sides of the element */
+			padding: 50px ; /* adds 10px of padding on all sides of the element */
+			border: 10px solid black; /* adds a 1px solid black border around the element */
   }
+  
