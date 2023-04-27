@@ -29,8 +29,9 @@ a{
   /* } */ */
 
   .box {
-	        margin: 50px; /* adds 20px of margin on all sides of the element */
-			padding: 50px ; /* adds 10px of padding on all sides of the element */
-			border: 10px solid black; /* adds a 1px solid black border around the element */
+	        /* margin: 50px; /* adds 20px of margin on all sides of the element */
+			/* padding: 50px ; adds 10px of padding on all sides of the element */ 
+			/* border: 10px solid black; adds a 1px solid black border around the element */
+            background-color: aqua;
   }
   
