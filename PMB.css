@@ -1,0 +1,29 @@
+a{  
+    margin:  50px auto;
+    max-width: 500px;
+    padding:  300px;
+    display: inline-block;
+    background-color: coral;
+    border-radius: 50px;
+    border-color: blue;
+}
+
+.box {
+        margin:  50px auto;
+        max-width: 500px;
+        padding:  300px;
+        background-color: coral;
+        border-radius: 100px;
+        box-shadow: 0px 2px 5px rgb(254, 3, 3);
+       
+/* 
+    background-color: rgb(233, 141, 20);
+    margin-top: 80px;
+    margin-left: 5rem;
+    width: 20rem;
+    color: blueviolet;
+    text-align: center;
+    font-size: 50px;
+    border: 20px solid red;
+    padding: 6rem; */
+  }

@@ -19,27 +19,34 @@ let valStr= myMap.get(keyString)
 
 let isKeyExist = myMap.has('a string')
 
-for (let Ikey, value) of myMap) 
-console.log("Loopl: "+key+=+ value)
+for (let [key, value] of myMap) 
+console.log("Loopl: "+key+"="+ value)
 
-for (let [key, valuel of myMap).entries() console.log("Loop2: "+key+= value)
+for (let [key, valuel] of myMap.entries() )
+console.log("Loop2: "+key+"="+ value)
 
-for (let key of myMap.keys()) console.log("Loop3: "+key) for (let value of myMap.values()) console.log("Loop4: "value)
+for (let key of myMap.keys()) console.log("Loop3: "+key) 
 
-// Merge two maps. The last repeated key wins. // Spread operator essentially converts a Map to an Array
+for (let value of myMap.values()) console.log("Loop4: "+value)
 
-let first new Mapt1 11, one 1, 12, two 1, 3, 'three'] 1)
+// Merge two maps. The last repeated key wins. 
+// Spread operator essentially converts a Map to an Array
 
-let second = new Map(1 11, uno!1, 12, 'dos 11)
+let first = new Mapt1([ [1, one] [2, two]  [3, 'three']]  )
 
-Let merged = new Map(1...first, second,
+let second = new Map([ 1, uno] [ 2, 'dos' ] )
 
-Les haskey merged.has (1)
+let merged = new Map([...first, second,[1,'enis']])
 
-Let delKey merged.delete(1)
 
-if (merged.has(3)3 console.logieerged.get(i)) // und console.log Pos2: merged.get(21) // des
+let haskey = merged.has (1)
+let delKey = merged.delete(1)
+
+if (merged.has(1))
+ console.logieerged.get(i)
+ 
+ // und console.log Pos2: merged.get(21) // des
 
 merged.clear();
 
-console, lagimerged.size)
+console, lagi(merged.size)
