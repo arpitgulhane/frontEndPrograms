@@ -28,8 +28,9 @@ window.addEventListener('DOMContentLoaded',(event)=>{
 const save =()=>{
     try{
         let employeePayrollData = creatEmployeePayroll();
+        createAndUpdateStorage(employeePayrollData);
     }catch (e){
-        return
+        return ;
     }
 }   
 
